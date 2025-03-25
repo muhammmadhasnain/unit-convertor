@@ -21,7 +21,8 @@ def unit_convertor(value , unit_from , unit_to):
         return "value not supported"
     
 
-st.title("Unit Convertor")
+st.title("Unit Converter")
+st.title("welcome to unit converter!")
 value = st.number_input("Enter the value: ", min_value=1.0 , step=1.0)
 
 unit_from = st.selectbox("Convert from: ", ["meters", "kilometers", "grams", "kilograms"])
